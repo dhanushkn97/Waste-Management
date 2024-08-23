@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Type__c</fullName>
+    <label>Service Type</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Residential Garbage Collection</fullName>
+                <default>false</default>
+                <label>Residential Garbage Collection</label>
+            </value>
+            <value>
+                <fullName>Commercial Recycling</fullName>
+                <default>false</default>
+                <label>Commercial Recycling</label>
+            </value>
+            <value>
+                <fullName>Industrial Waste Disposal</fullName>
+                <default>false</default>
+                <label>Industrial Waste Disposal</label>
+            </value>
+            <value>
+                <fullName>Hazardous Waste Collection</fullName>
+                <default>false</default>
+                <label>Hazardous Waste Collection</label>
+            </value>
+            <value>
+                <fullName>Electronic Waste Collection</fullName>
+                <default>false</default>
+                <label>Electronic Waste Collection</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

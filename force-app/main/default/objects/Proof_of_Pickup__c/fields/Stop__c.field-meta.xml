@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stop__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <label>Stop</label>
+    <referenceTo>Stop__c</referenceTo>
+    <relationshipLabel>Proof of Pickups</relationshipLabel>
+    <relationshipName>Proof_of_Pickups</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
